@@ -1,9 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
 
 body{
-    font-family: 'Poppins', sans-serif;;
-   
+    margin: 0;
 }
+
+main{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+
+}
+   
 
 
 .top-area{
@@ -11,9 +20,7 @@ body{
     height: 677px;
     width: 1440px;
     display: flex;
-    /* align-items: center;
-    justify-content:space-around; */
-
+    position: relative;
 }
 
 .textandbutton{
@@ -41,7 +48,12 @@ body{
     justify-content:center;
     font-weight: 500;
     margin-top: 34px;
+    
 }
+a:visited {
+    color: white;
+}
+
 
 .fas{
     margin-left: 10px;
@@ -49,7 +61,7 @@ body{
 
 
 .banner{
-    position: absolute;
+    position:absolute;
     left: 740px;
     top: 135px;
 
@@ -58,4 +70,19 @@ body{
 
     width: 556px;
 
+}
+
+.player-area{
+    width: 1440px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(3, 330px);
+    padding: 68px 180px;
+}
+
+
+
+.playerthumbnail img{
+    width: 300px;
+    height: 256px;
 }
