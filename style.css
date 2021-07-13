@@ -37,6 +37,8 @@ main{
 #big-text{
     font-size: 64px;
     margin: 0;
+    font-weight: 700;
+
 }
 
 #play-button{
@@ -144,6 +146,86 @@ a:visited {
     font-size: 18px;
     line-height: 24px;
     color: black;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    main{
+        width: 360px;
+    }
+
+
+    .top-area{
+        background-color: #2D25A0;
+        height: 695px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .textandbutton{
+    
+        color: white;
+        position: absolute;
+        width: 278px;
+        line-height: 50px;
+        left: 12px;
+        top: 112px;
+    }
+
+    #big-text{
+        font-size: 36px;
+    }
+
+    #play-button{
+        margin-top: 30px;
+    }
+
+    .banner{
+        position:absolute;
+        width: 329px;
+        left: 15px;
+        top: 374px;
+
+    }
+
+    .banner img{
+
+        width: 100%;
+    
+    }
+
+    .player-area{
+        width: 100%;
+    }
+
+    .grid-area{
+        display: flex;
+        flex-direction: column;
+        padding: 47px 15px;
+        grid-gap: 24px;
+
+    
+    }
+
+    
+    .bottom-area{
+        width: 100%;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+
+    #logo{
+
+        width: 80%;
+    }
+
+
+
 }
 
 
