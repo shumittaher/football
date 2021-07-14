@@ -25,6 +25,45 @@ main{
     position: relative;
 }
 
+.scores{
+    color:white;
+    border: turquoise solid;
+    height: fit-content;
+    width: 300px;
+    position: absolute;
+    right: 15px;
+    top: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.caption{
+    width: 100%;
+    text-align: center;
+}
+
+.scores p{
+    margin: 0;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    border: springgreen solid;
+    background-color: steelblue;
+}
+
+.frame{
+    border: springgreen solid;
+    background-color: steelblue;
+    display: flex;
+    justify-content: center;
+}
+
+.score-area{
+    justify-content: center;
+    margin: 0 5px;
+}
+
 .textandbutton{
     
     color: white;
@@ -238,6 +277,9 @@ a:visited {
 
         width: 80%;
         margin-bottom: 25px;
+    }
+    .scores{
+        visibility: hidden;
     }
 
 
