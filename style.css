@@ -1,4 +1,7 @@
+/* import of google fonts */
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
 
 body{
     margin: 0;
@@ -13,8 +16,6 @@ main{
     font-family: 'Poppins', sans-serif;
 
 }
-   
-
 
 .top-area{
     background-color: #2D25A0;
